@@ -36,7 +36,7 @@ window.resourcesData = [
         linkUrl: "https://www.amazon.co.uk/ADHD-2-0-Ground-Breaking-Attention-Engagement/dp/0399178449"
       },
       {
-        icon: "📘",
+        icon: "📗",
         title: "Driven to Distraction",
         subtitle: "Edward Hallowell & John Ratey",
         description: "The original, still essential. Personal stories and clinical insight that help ADHD finally make sense — both to people who have it and people who love them.",
@@ -44,7 +44,7 @@ window.resourcesData = [
         linkUrl: "https://www.amazon.co.uk/Driven-Distraction-Revised-Recognizing-Attention/dp/0307743152"
       },
       {
-        icon: "📙",
+        icon: "📗",
         title: "The Explosive Child",
         subtitle: "Ross W. Greene",
         description: "Technically not an ADHD book, but transformative for any parent whose child has big emotions and difficult behaviour. The Collaborative Problem Solving approach changed how I parent.",
@@ -52,7 +52,7 @@ window.resourcesData = [
         linkUrl: "https://www.amazon.co.uk/Explosive-Child-Understanding-Frustrated-Chronically/dp/006317433X"
       },
       {
-        icon: "📕",
+        icon: "📗",
         title: "How to ADHD",
         subtitle: "Jessica McCabe",
         description: "Based on the brilliant YouTube channel of the same name. Practical, friendly, and full of concrete strategies. A great starting point if you're newly diagnosed.",
@@ -60,12 +60,20 @@ window.resourcesData = [
         linkUrl: "https://www.amazon.co.uk/How-ADHD-Insider-Strategies-Neurodivergent/dp/059349594X"
       },
       {
-        icon: "📒",
+        icon: "📗",
         title: "Smart but Stuck",
         subtitle: "Thomas E. Brown",
         description: "Particularly good for adults who were high-achieving at school despite ADHD — the 'bright but' story. Helped me understand why diagnosis so often comes late.",
         linkText: "Find on Amazon",
         linkUrl: "https://www.amazon.co.uk/Smart-but-Stuck-Bright-Adults/dp/1118275063"
+      },
+      {
+        icon: "📗",
+        title: "ADHD: A Hunter in a Farmer's World",
+        subtitle: "Thom Hartmann",
+        description: "The theory is interesting, but really just a nice way for you to view the world of ADHD superpowers.",
+        linkText: "Find on Amazon",
+        linkUrl: "https://amzn.eu/d/00bRmwhz"      
       }
     ]
   },
