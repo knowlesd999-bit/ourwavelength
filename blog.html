@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog — Our Wavelength</title>
-  <meta name="description" content="Dave's ongoing blog about life with ADHD — personal reflections, updates, and honest moments from the journey." />
+  <meta name="description" content="An ongoing blog about life with ADHD — personal reflections, updates, and honest moments from the journey." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -19,7 +19,7 @@
       <nav class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="my-story.html">My Story</a>
-        <a href="raising-adhd-child.html">Raising an ADHD Child</a>
+        <a href="raising-adhd-child.html">ADHD Parenting Files</a>
         <a href="practical-tips.html">Practical Tips</a>
         <a href="resources.html">Resources</a>
         <a href="blog.html" class="active">Blog</a>
@@ -37,73 +37,11 @@
     </div>
   </section>
 
-  <!-- ===== BLOG POSTS ===== -->
+  <!-- ===== BLOG POSTS (rendered from blog-data.js) ===== -->
   <section class="section">
     <div class="container">
-
-      <div class="blog-list">
-
-        <div class="blog-card">
-          <div class="blog-card__meta">
-            <span>ADHD &amp; Identity</span> · Coming soon
-          </div>
-          <h3>Why "but you don't look like you have ADHD" is the most exhausting thing to hear</h3>
-          <p>
-            A reflection on masking, the long-term cost of pretending to be neurotypical,
-            and why late diagnosis so often comes with a complicated grief.
-          </p>
-          <span class="blog-card__link" style="opacity: 0.5; cursor: default;">Coming soon</span>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card__meta">
-            <span>Parenting</span> · Coming soon
-          </div>
-          <h3>The school meeting I wish I'd had ten years ago</h3>
-          <p>
-            What changed when we finally found a teacher who really got it —
-            and what it taught me about advocating for kids who don't fit the mould.
-          </p>
-          <span class="blog-card__link" style="opacity: 0.5; cursor: default;">Coming soon</span>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card__meta">
-            <span>Personal</span> · Coming soon
-          </div>
-          <h3>Six months on medication: what changed and what didn't</h3>
-          <p>
-            An honest account of starting medication as an adult — the things that
-            shifted, the things that didn't, and what I'd tell my past self about
-            what to expect.
-          </p>
-          <span class="blog-card__link" style="opacity: 0.5; cursor: default;">Coming soon</span>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card__meta">
-            <span>Relationships</span> · Coming soon
-          </div>
-          <h3>ADHD and partnership: the conversations my wife and I had to learn to have</h3>
-          <p>
-            How ADHD had been quietly affecting our relationship for years before
-            either of us had words for it — and what talking about it honestly finally changed.
-          </p>
-          <span class="blog-card__link" style="opacity: 0.5; cursor: default;">Coming soon</span>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card__meta">
-            <span>Work</span> · Coming soon
-          </div>
-          <h3>The working environment that finally worked for me</h3>
-          <p>
-            After years of fighting open-plan offices, back-to-back meetings, and
-            the modern productivity gospel — what I've actually built that helps.
-          </p>
-          <span class="blog-card__link" style="opacity: 0.5; cursor: default;">Coming soon</span>
-        </div>
-
+      <div class="blog-list" id="blog-list">
+        <!-- Injected by script below -->
       </div>
 
       <div class="coming-soon" style="margin-top: 3rem;">
@@ -114,7 +52,6 @@
           tea beside me. Watch this space.
         </p>
       </div>
-
     </div>
   </section>
 
@@ -142,7 +79,7 @@
       <div class="footer-brand">
         <span class="footer-brand__name">Our Wavelength</span>
         <p>
-          A personal site by Dave — exploring ADHD honestly, for adults navigating diagnosis
+          A personal site exploring ADHD honestly, for adults navigating diagnosis
           and parents raising children on the spectrum. Not clinical advice; just real experience.
         </p>
         <p style="margin-top: 0.75rem; font-size: 0.8rem;">ourwavelength.co.uk</p>
@@ -150,7 +87,7 @@
       <nav class="footer-nav" aria-label="Footer navigation">
         <a href="index.html">Home</a>
         <a href="my-story.html">My Story</a>
-        <a href="raising-adhd-child.html">Raising an ADHD Child</a>
+        <a href="raising-adhd-child.html">ADHD Parenting Files</a>
         <a href="practical-tips.html">Practical Tips</a>
         <a href="resources.html">Resources</a>
         <a href="blog.html">Blog</a>
@@ -160,6 +97,46 @@
       <p>© 2024 Our Wavelength · Made with honesty and a lot of strong tea.</p>
     </div>
   </footer>
+
+  <script src="blog-data.js"></script>
+  <script>
+    (function () {
+      var list = document.getElementById('blog-list');
+
+      if (!window.blogData || window.blogData.length === 0) {
+        list.innerHTML = '<p>No posts yet. Add entries to blog-data.js to get started.</p>';
+        return;
+      }
+
+      var html = '';
+
+      window.blogData.forEach(function (post) {
+        var isPublished = post.status === 'published';
+
+        html += '<div class="blog-card">';
+        html += '  <div class="blog-card__meta">';
+        html += '    <span>' + post.tag + '</span>';
+        if (isPublished && post.date) {
+          html += ' &middot; ' + post.date;
+        } else {
+          html += ' &middot; Coming soon';
+        }
+        html += '  </div>';
+        html += '  <h3>' + post.title + '</h3>';
+        html += '  <p>' + post.excerpt + '</p>';
+
+        if (isPublished && post.url) {
+          html += '  <a href="' + post.url + '" class="blog-card__link">Read more</a>';
+        } else {
+          html += '  <span class="blog-card__link" style="opacity:0.4; cursor:default;">Coming soon</span>';
+        }
+
+        html += '</div>';
+      });
+
+      list.innerHTML = html;
+    })();
+  </script>
 
 </body>
 </html>
