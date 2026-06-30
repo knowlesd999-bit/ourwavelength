@@ -49,7 +49,7 @@ window.resourcesData = [
         subtitle: "Ross W. Greene",
         description: "Technically not an ADHD book, but transformative for any parent whose child has big emotions and difficult behaviour. The Collaborative Problem Solving approach changed how I parent.",
         linkText: "Find on Amazon",
-        linkUrl: "https://www.amazon.co.uk/Explosive-Child-Understanding-Frustrated-Chronically/dp/006317433X"
+        linkUrl: "https://amzn.eu/d/0dYCr6JW"
       },
       {
         icon: "📗",
@@ -57,7 +57,7 @@ window.resourcesData = [
         subtitle: "Jessica McCabe",
         description: "Based on the brilliant YouTube channel of the same name. Practical, friendly, and full of concrete strategies. A great starting point if you're newly diagnosed.",
         linkText: "Find on Amazon",
-        linkUrl: "https://www.amazon.co.uk/How-ADHD-Insider-Strategies-Neurodivergent/dp/059349594X"
+        linkUrl: "https://amzn.eu/d/0aHyeYaa"
       },
       {
         icon: "📗",
@@ -65,7 +65,7 @@ window.resourcesData = [
         subtitle: "Thomas E. Brown",
         description: "Particularly good for adults who were high-achieving at school despite ADHD — the 'bright but' story. Helped me understand why diagnosis so often comes late.",
         linkText: "Find on Amazon",
-        linkUrl: "https://www.amazon.co.uk/Smart-but-Stuck-Bright-Adults/dp/1118275063"
+        linkUrl: "https://amzn.eu/d/02BRErUJ"
       },
       {
         icon: "📗",
