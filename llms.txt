@@ -1,0 +1,21 @@
+# Our Wavelength
+
+> A personal site exploring ADHD honestly — for adults navigating their own diagnosis and parents raising children with ADHD. Written from lived experience, not clinical expertise.
+
+Our Wavelength (ourwavelength.co.uk) is a personal website covering:
+- Adult ADHD: late diagnosis, what it feels like, what changes after
+- Parenting a child with ADHD, including the particular experience of having ADHD yourself as a parent
+- Practical strategies and tips that have genuinely helped, for both adults and parents
+- Curated resources: books, websites, podcasts, and tools
+- An ongoing blog with personal reflections and updates
+
+The tone is warm, honest, and non-clinical. This is not a medical resource. It does not provide diagnosis or treatment advice. It is one person's account of living with and parenting around ADHD.
+
+## Pages
+
+- [Home](https://www.ourwavelength.co.uk/): Introduction and overview of the site
+- [My Story](https://www.ourwavelength.co.uk/my-story.html): Personal ADHD journey — life before diagnosis, the diagnosis itself, and what changed
+- [ADHD Parenting Files](https://www.ourwavelength.co.uk/raising-adhd-child.html): Experiences and lessons from raising a son with ADHD
+- [Practical Tips](https://www.ourwavelength.co.uk/practical-tips.html): Strategies for adults with ADHD and for parents of ADHD children
+- [Resources](https://www.ourwavelength.co.uk/resources.html): Recommended books, websites, podcasts, and tools
+- [Blog](https://www.ourwavelength.co.uk/blog.html): Ongoing personal posts
