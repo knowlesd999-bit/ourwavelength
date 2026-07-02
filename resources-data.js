@@ -132,10 +132,18 @@ window.resourcesData = [
       {
         icon: "🎧",
         title: "ADHD Experts Podcast",
-        subtitle: "ADDitude Magazine",
-        description: "Recorded webinars from leading ADHD clinicians and researchers. Dense but excellent if you want to really understand the science and the clinical perspective.",
+        subtitle: "Emotional intelligence can be your greatest entrepreneurial strength as an adult with ADHD",
+        description: "Emotional intelligence can be your greatest entrepreneurial strength as an adult with ADHD",
         linkText: "Listen",
         linkUrl: "https://www.additudemag.com/adhd-podcast/"
+      }
+      {
+        icon: "🎧",
+          title: "Overcoming Distractions - thriving with ADHD, ADD",
+        subtitle: "Emotional intelligence can be your geatest entreprenurial stength as an adult with ADHD",
+        description: "For the busy professional aaith ADHD",
+        linkText: "Listen",
+        linkUrl: "https://podcasts.apple.com/gb/podcast/overcoming-distractions-thriving-with-adhd-add/id1150056233?i=1000772367864"
       }
     ]
   },
