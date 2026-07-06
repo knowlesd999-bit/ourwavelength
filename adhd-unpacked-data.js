@@ -130,4 +130,21 @@ window.adhdUnpackedData = [
     ]
   }
 
+,
+  {
+    id: "public-figures",
+    heading: "Public Figures with ADHD",
+    intro: "Sometimes it helps to know you're in good company. A curated, verified list of people in the public eye who have personally spoken about their ADHD.",
+    links: [
+      {
+        type: "website",
+        icon: "🌟",
+        title: "Public Figures with ADHD",
+        description: "Actors, athletes, musicians, and more — all verified from original sources, in their own words.",
+        linkText: "See the full list",
+        linkUrl: "public-figures.html"
+      }
+    ]
+  }
+
 ];

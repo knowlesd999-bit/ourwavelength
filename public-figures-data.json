@@ -1,0 +1,659 @@
+{
+  "dataset": {
+    "name": "Verified ADHD Public Figures Database",
+    "version": "0.2-draft",
+    "status": "draft_not_for_publication",
+    "last_updated": "2026-07-06",
+    "description": "A curated reference dataset of public figures who have personally discussed ADHD or ADD in a verifiable public source.",
+    "editorial_principle": "If an entry cannot be defended with evidence, it is not publication-ready."
+  },
+  "schema": {
+    "id": "Stable lowercase identifier; do not change once published.",
+    "slug": "URL-friendly version of the name.",
+    "verification_status": [
+      "verified",
+      "verified_candidate",
+      "pending_verification",
+      "under_investigation",
+      "excluded"
+    ],
+    "publication_ready": "True only after source and quote are verified against the original source.",
+    "quote_type": [
+      "direct_quote",
+      "reported_quote",
+      "reported_quote_pending_exact",
+      "diagnosis_confirmed_quote_pending",
+      "direct_quote_pending_original"
+    ],
+    "evidence_grade": {
+      "A": "Primary source: book, transcript, video, podcast, verified social media, or original interview.",
+      "B": "Reputable secondary source quoting a primary source.",
+      "C": "Secondary/source chain incomplete; not suitable for publication without upgrade.",
+      "X": "Excluded or insufficient evidence."
+    }
+  },
+  "editorial_policy_summary": {
+    "include_if": [
+      "The person has personally acknowledged ADHD or ADD.",
+      "The acknowledgement appears in a verifiable public source.",
+      "Any quotation is checked against the original source wherever possible.",
+      "Speculative, retrospective, or third-party-only claims are excluded."
+    ],
+    "source_hierarchy": [
+      "Autobiography or memoir",
+      "Video interview",
+      "Podcast",
+      "Original newspaper or magazine interview",
+      "Verified social media",
+      "Documentary",
+      "Reputable secondary source, clearly labelled"
+    ]
+  },
+  "records": [
+    {
+      "id": "simone-biles",
+      "slug": "simone-biles",
+      "name": "Simone Biles",
+      "occupation": "Gymnast",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Childhood",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I have ADHD and I have taken medicine for it since I was a kid… Having ADHD… is nothing to be ashamed of.",
+      "quote_type": "direct_quote_pending_original",
+      "quote_context": null,
+      "source": {
+        "title": "Original X statement, to verify against original wording",
+        "type": "Social media / secondary reporting",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong first-hand evidence; final quote wording needs original-source check."
+    },
+    {
+      "id": "tom-holland",
+      "slug": "tom-holland",
+      "name": "Tom Holland",
+      "occupation": "Actor",
+      "country": "United Kingdom",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I have ADHD and I'm dyslexic…",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "IGN interview, to verify original",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original interview/source check."
+    },
+    {
+      "id": "greta-gerwig",
+      "slug": "greta-gerwig",
+      "name": "Greta Gerwig",
+      "occupation": "Director, actor, screenwriter",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "Now, as an adult, I have ADHD — they diagnosed me.",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "The Observer / Guardian-family interview, to verify original",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original article check."
+    },
+    {
+      "id": "rene-rapp",
+      "slug": "rene-rapp",
+      "name": "Reneé Rapp",
+      "occupation": "Singer and actor",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I didn't know I had ADHD as a kid… now I do and I really love it.",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Official Charts interview, to verify original",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original transcript check."
+    },
+    {
+      "id": "barry-keoghan",
+      "slug": "barry-keoghan",
+      "name": "Barry Keoghan",
+      "occupation": "Actor",
+      "country": "Ireland",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": "My mind used to be like a traffic jam...",
+      "quote_type": "reported_quote_pending_exact",
+      "quote_context": null,
+      "source": {
+        "title": "Esquire interview",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong candidate; verify exact quote and canonical URL before publication."
+    },
+    {
+      "id": "ed-helms",
+      "slug": "ed-helms",
+      "name": "Ed Helms",
+      "occupation": "Actor and comedian",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": "I read Driven to Distraction and just wept reading that book...",
+      "quote_type": "reported_quote_pending_exact",
+      "quote_context": null,
+      "source": {
+        "title": "Soul Boom podcast",
+        "type": "Podcast",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong primary-source candidate; needs transcript timestamp/canonical link."
+    },
+    {
+      "id": "daniel-kwan",
+      "slug": "daniel-kwan",
+      "name": "Daniel Kwan",
+      "occupation": "Film director",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": "This movie is the reason why I got diagnosed.",
+      "quote_type": "reported_quote_pending_exact",
+      "quote_context": null,
+      "source": {
+        "title": "Salon interview",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong candidate; verify exact quote and canonical URL."
+    },
+    {
+      "id": "zach-wilson",
+      "slug": "zach-wilson",
+      "name": "Zach Wilson",
+      "occupation": "American football player",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Childhood",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": "I try hard, but it's a struggle for me because of the attention deficit.",
+      "quote_type": "reported_quote_pending_exact",
+      "quote_context": null,
+      "source": {
+        "title": "Deseret News interview",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong candidate; verify exact quote and canonical URL."
+    },
+    {
+      "id": "michael-phelps",
+      "slug": "michael-phelps",
+      "name": "Michael Phelps",
+      "occupation": "Swimmer",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Childhood",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": "When I was in sixth grade... diagnosed me with attention-deficit/hyperactivity disorder.",
+      "quote_type": "reported_quote_pending_exact",
+      "quote_context": null,
+      "source": {
+        "title": "Autobiography / interviews",
+        "type": "Book / Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Strong candidate; choose final shortest publication-safe quote."
+    },
+    {
+      "id": "lola-young",
+      "slug": "lola-young",
+      "name": "Lola Young",
+      "occupation": "Singer-songwriter",
+      "country": "United Kingdom",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": null,
+      "quote_type": "diagnosis_confirmed_quote_pending",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to locate",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Diagnosis appears supported, but publication quote still pending."
+    },
+    {
+      "id": "ty-pennington",
+      "slug": "ty-pennington",
+      "name": "Ty Pennington",
+      "occupation": "TV presenter and carpenter",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Childhood",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "Even if you're on medication...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "lisa-ling",
+      "slug": "lisa-ling",
+      "name": "Lisa Ling",
+      "occupation": "Journalist and TV presenter",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "My head is kind of spinning...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview/documentary to verify",
+        "type": "Documentary / Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "karina-smirnoff",
+      "slug": "karina-smirnoff",
+      "name": "Karina Smirnoff",
+      "occupation": "Professional dancer",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I'm an adult with ADHD.",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "david-neeleman",
+      "slug": "david-neeleman",
+      "name": "David Neeleman",
+      "occupation": "Entrepreneur",
+      "country": "Brazil / United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "If someone told me I could be normal... I'd take ADHD.",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "justin-timberlake",
+      "slug": "justin-timberlake",
+      "name": "Justin Timberlake",
+      "occupation": "Singer and actor",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I have OCD mixed with ADD...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Need exact original wording/context."
+    },
+    {
+      "id": "adam-levine",
+      "slug": "adam-levine",
+      "name": "Adam Levine",
+      "occupation": "Musician",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "ADHD isn't a bad thing...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Campaign/interview to verify",
+        "type": "Awareness campaign / Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original campaign/interview source."
+    },
+    {
+      "id": "will-i-am",
+      "slug": "will-i-am",
+      "name": "will.i.am",
+      "occupation": "Musician and producer",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "Music is my therapy.",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "howie-mandel",
+      "slug": "howie-mandel",
+      "name": "Howie Mandel",
+      "occupation": "Comedian and TV presenter",
+      "country": "Canada",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Childhood/Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "Back in the 1960s...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview/book to verify",
+        "type": "Interview / Book",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original-source check."
+    },
+    {
+      "id": "trevor-noah",
+      "slug": "trevor-noah",
+      "name": "Trevor Noah",
+      "occupation": "Comedian and TV host",
+      "country": "South Africa",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult/Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "My depression is created by a severe level of ADHD...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "Original interview to verify",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs exact quote/source check."
+    },
+    {
+      "id": "nelly-furtado",
+      "slug": "nelly-furtado",
+      "name": "Nelly Furtado",
+      "occupation": "Singer-songwriter",
+      "country": "Canada",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Adult/Unknown",
+      "verification_status": "pending_verification",
+      "publication_ready": false,
+      "quote": "I've had it my whole life...",
+      "quote_type": "reported_quote",
+      "quote_context": null,
+      "source": {
+        "title": "People interview",
+        "type": "Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Needs original People article check."
+    },
+    {
+      "id": "terry-bradshaw",
+      "slug": "terry-bradshaw",
+      "name": "Terry Bradshaw",
+      "occupation": "American football player and broadcaster",
+      "country": "United States",
+      "adhd_term_used": null,
+      "diagnosis_timing": "Unknown",
+      "verification_status": "verified_candidate",
+      "publication_ready": false,
+      "quote": null,
+      "quote_type": "diagnosis_confirmed_quote_pending",
+      "quote_context": null,
+      "source": {
+        "title": "Autobiography / interviews",
+        "type": "Book / Interview",
+        "canonical_url": null,
+        "published_date": null,
+        "accessed_date": "2026-07-06"
+      },
+      "evidence_grade": null,
+      "last_reviewed": "2026-07-06",
+      "editorial_notes": "Select best primary quote before publication."
+    }
+  ],
+  "under_investigation": [
+    {
+      "id": "jamie-oliver",
+      "name": "Jamie Oliver",
+      "status": "under_investigation",
+      "reason": "Need original first-hand source confirming ADHD rather than dyslexia alone.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "justin-bieber",
+      "name": "Justin Bieber",
+      "status": "under_investigation",
+      "reason": "Has discussed ADD-like symptoms; formal diagnosis/first-hand confirmation needs clarification.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "mark-ruffalo",
+      "name": "Mark Ruffalo",
+      "status": "under_investigation",
+      "reason": "Need to distinguish ADHD from other conditions discussed and verify a first-hand ADHD statement.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "michael-jordan",
+      "name": "Michael Jordan",
+      "status": "under_investigation",
+      "reason": "No verified first-hand ADHD confirmation located yet.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "scott-kelly",
+      "name": "Scott Kelly",
+      "status": "under_investigation",
+      "reason": "Self-identified retrospectively; not confirmed clinical diagnosis, may require separate category.",
+      "last_reviewed": "2026-07-06"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "emma-watson",
+      "name": "Emma Watson",
+      "status": "excluded",
+      "reason": "No reliable first-hand ADHD confirmation located.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "albert-einstein",
+      "name": "Albert Einstein",
+      "status": "excluded",
+      "reason": "Retrospective/speculative diagnosis; no first-hand ADHD statement.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "leonardo-da-vinci",
+      "name": "Leonardo da Vinci",
+      "status": "excluded",
+      "reason": "Retrospective/speculative diagnosis; no first-hand ADHD statement.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "walt-disney",
+      "name": "Walt Disney",
+      "status": "excluded",
+      "reason": "No verified first-hand ADHD statement located.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "johnny-depp",
+      "name": "Johnny Depp",
+      "status": "excluded",
+      "reason": "Court/third-party material found, but no first-hand public acknowledgement located.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "jim-carrey",
+      "name": "Jim Carrey",
+      "status": "excluded",
+      "reason": "No reliable first-hand ADHD confirmation located.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "dustin-hoffman",
+      "name": "Dustin Hoffman",
+      "status": "excluded",
+      "reason": "No reliable first-hand ADHD confirmation located.",
+      "last_reviewed": "2026-07-06"
+    },
+    {
+      "id": "richard-branson",
+      "name": "Richard Branson",
+      "status": "excluded",
+      "reason": "Has discussed possible ADHD-like traits, but no definitive first-hand diagnosis statement verified.",
+      "last_reviewed": "2026-07-06"
+    }
+  ],
+  "summary": {
+    "records_count": 21,
+    "under_investigation_count": 5,
+    "excluded_count": 8,
+    "publication_ready_count": 0
+  }
+}

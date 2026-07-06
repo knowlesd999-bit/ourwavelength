@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Public Figures with ADHD — Our Wavelength</title>
+  <meta name="description" content="A verified list of public figures who have personally spoken about their ADHD or ADD diagnosis — in their own words." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="https://www.ourwavelength.co.uk/public-figures.html" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Our Wavelength" />
+  <meta property="og:title" content="Public Figures with ADHD — Our Wavelength" />
+  <meta property="og:description" content="A verified list of public figures who have personally spoken about their ADHD or ADD diagnosis — in their own words." />
+  <meta property="og:url" content="https://www.ourwavelength.co.uk/public-figures.html" />
+  <!-- Twitter/X Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Public Figures with ADHD — Our Wavelength" />
+  <meta name="twitter:description" content="A verified list of public figures who have personally spoken about their ADHD or ADD diagnosis." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .figures-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .figure-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .figure-card:hover {
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .figure-card__name {
+      font-family: var(--font-ui);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--teal-dark);
+      margin-bottom: 0.2rem;
+    }
+
+    .figure-card__meta {
+      font-family: var(--font-ui);
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .figure-card__quote {
+      font-style: italic;
+      color: var(--text-mid);
+      font-size: 0.95rem;
+      border-left: 3px solid var(--teal-light);
+      padding-left: 0.85rem;
+      margin-bottom: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .figure-card__source {
+      font-family: var(--font-ui);
+      font-size: 0.8rem;
+    }
+
+    .category-heading {
+      font-family: var(--font-ui);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--teal-dark);
+      margin-top: 3rem;
+      margin-bottom: 0.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--teal-pale);
+    }
+
+    .category-heading:first-of-type {
+      margin-top: 0;
+    }
+
+    .coming-soon-figures {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: var(--teal-pale);
+      border-radius: var(--radius);
+      border: 2px dashed var(--teal-light);
+    }
+
+    .coming-soon-figures h3 {
+      color: var(--teal-dark);
+      margin-bottom: 0.75rem;
+    }
+
+    .coming-soon-figures p {
+      color: var(--text-mid);
+      max-width: 36rem;
+      margin-inline: auto;
+    }
+
+    .editorial-note {
+      background: var(--orange-pale);
+      border: 1px solid #f4c4ae;
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--text-mid);
+      margin-bottom: 2.5rem;
+      font-family: var(--font-ui);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <span class="site-logo__name">Our Wavelength</span>
+        <span class="site-logo__tagline">ADHD, honestly</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="my-story.html">My Story</a>
+        <a href="raising-adhd-child.html">ADHD Parenting Files</a>
+        <a href="practical-tips.html">Practical Tips</a>
+        <a href="resources.html">Resources</a>
+        <a href="adhd-unpacked.html">ADHD Unpacked</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Public Figures with ADHD</h1>
+      <p class="page-hero__lead">
+        People who have personally spoken about their ADHD or ADD diagnosis — in their own words,
+        from verified sources. Sometimes it helps to know you're in good company.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== CONTENT ===== -->
+  <section class="section">
+    <div class="container" id="figures-container">
+      <!-- Injected by script below -->
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <span class="footer-brand__name">Our Wavelength</span>
+        <p>
+          A personal site exploring ADHD honestly, for adults navigating diagnosis
+          and parents raising children on the spectrum. Not clinical advice; just real experience.
+        </p>
+        <p style="margin-top: 0.75rem; font-size: 0.8rem;">ourwavelength.co.uk</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="my-story.html">My Story</a>
+        <a href="raising-adhd-child.html">ADHD Parenting Files</a>
+        <a href="practical-tips.html">Practical Tips</a>
+        <a href="resources.html">Resources</a>
+        <a href="adhd-unpacked.html">ADHD Unpacked</a>
+        <a href="blog.html">Blog</a>
+        <a href="legal.html">Legal &amp; Privacy</a>
+      </nav>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2026 Our Wavelength · Made with honesty and a lot of strong tea. · <a href="legal.html" style="color: inherit;">Legal &amp; Privacy</a></p>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var container = document.getElementById('figures-container');
+
+    // Category mapping from occupation keywords
+    function getCategory(occupation) {
+      var occ = (occupation || '').toLowerCase();
+      if (/gymnast|swimmer|football|athlete|sport|dancer|cyclist|rugby|tennis|golf/.test(occ)) return 'Sport';
+      if (/actor|actress|director|screenwriter|comedian|entertainer|comedian/.test(occ)) return 'Film & TV';
+      if (/singer|musician|producer|songwriter/.test(occ)) return 'Music';
+      if (/journalist|presenter|broadcaster|reporter/.test(occ)) return 'Media';
+      if (/entrepreneur|founder|business|carpenter/.test(occ)) return 'Business';
+      return 'Other';
+    }
+
+    var categoryOrder = ['Sport', 'Film & TV', 'Music', 'Media', 'Business', 'Other'];
+
+    fetch('public-figures-data.json')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        var records = (data.records || []).filter(function(r) {
+          return r.publication_ready === true;
+        });
+
+        if (records.length === 0) {
+          container.innerHTML =
+            '<div class="editorial-note">⚠️ This page only shows fully verified entries. ' +
+            'Entries are carefully checked against original sources before publication.</div>' +
+            '<div class="coming-soon-figures">' +
+            '<h3>Entries being verified</h3>' +
+            '<p>This list is being carefully compiled — every entry is checked against its original ' +
+            'source before it goes live. Come back soon; the first entries will be published shortly.</p>' +
+            '</div>';
+          return;
+        }
+
+        // Group by category
+        var grouped = {};
+        categoryOrder.forEach(function(c) { grouped[c] = []; });
+        records.forEach(function(r) {
+          var cat = getCategory(r.occupation);
+          if (!grouped[cat]) grouped[cat] = [];
+          grouped[cat].push(r);
+        });
+
+        // Sort each group alphabetically
+        Object.keys(grouped).forEach(function(cat) {
+          grouped[cat].sort(function(a,b) { return a.name.localeCompare(b.name); });
+        });
+
+        var html = '<div class="editorial-note">Every entry on this page has been checked ' +
+          'against its original source. Only first-hand, publicly confirmed diagnoses are included.</div>';
+
+        categoryOrder.forEach(function(cat) {
+          if (!grouped[cat] || grouped[cat].length === 0) return;
+
+          html += '<h2 class="category-heading">' + cat + '</h2>';
+          html += '<div class="figures-grid">';
+
+          grouped[cat].forEach(function(person) {
+            var sourceHtml = '';
+            if (person.source && person.source.canonical_url) {
+              sourceHtml = '<div class="figure-card__source"><a href="' +
+                person.source.canonical_url + '" target="_blank" rel="noopener">Source: ' +
+                (person.source.title || 'View source') + ' &rarr;</a></div>';
+            } else if (person.source && person.source.title) {
+              sourceHtml = '<div class="figure-card__source" style="color:var(--text-light);">Source: ' +
+                person.source.title + '</div>';
+            }
+
+            var quoteHtml = person.quote
+              ? '<div class="figure-card__quote">&ldquo;' + person.quote + '&rdquo;</div>'
+              : '';
+
+            html += '<div class="figure-card">' +
+              '<div class="figure-card__name">' + person.name + '</div>' +
+              '<div class="figure-card__meta">' + person.occupation +
+                (person.country ? ' &middot; ' + person.country : '') + '</div>' +
+              quoteHtml +
+              sourceHtml +
+              '</div>';
+          });
+
+          html += '</div>';
+        });
+
+        container.innerHTML = html;
+      })
+      .catch(function() {
+        container.innerHTML = '<p style="color:var(--text-mid);">Unable to load figures. Please try refreshing the page.</p>';
+      });
+  })();
+  </script>
+
+</body>
+</html>
