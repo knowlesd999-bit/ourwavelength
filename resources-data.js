@@ -136,14 +136,6 @@ window.resourcesData = [
         description: "For the busy professional aaith ADHD",
         linkText: "Listen",
         linkUrl: "https://podcasts.apple.com/gb/podcast/overcoming-distractions-thriving-with-adhd-add/id1150056233?i=1000772367864"
-      },
-      {
-        icon: "🎧",
-        title: "Help focusing",
-        subtitle: "Emotional intelligence can be your greatest entreprenurial stength as an adult with ADHD",
-        description: "For the busy professional aaith ADHD",
-        linkText: "Listen",
-        linkUrl: "https://podcasts.apple.com/gb/podcast/overcoming-distractions-thriving-with-adhd-add/id1150056233?i=1000772367864"
       }
     ]
   },
