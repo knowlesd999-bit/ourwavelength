@@ -29,31 +29,15 @@ window.adhdUnpackedData = [
   {
     id: "what-is-adhd",
     heading: "What is ADHD?",
-    intro: "A good place to start if you or someone close to you has just been diagnosed, or you're trying to understand what ADHD actually means.",
+    intro: "What ADHD actually feels like from the inside — personal experience, the science behind it, and links to go deeper.",
     links: [
       {
-        type: "website",
-        icon: "🌐",
-        title: "ADHD UK — What is ADHD?",
-        description: "A clear, UK-focused overview of what ADHD is, the different types, and how it's diagnosed.",
-        linkText: "Read on ADHD UK",
-        linkUrl: "https://adhduk.co.uk/about-adhd/"
-      },
-      {
-        type: "video",
-        icon: "🎥",
-        title: "How to ADHD — What is ADHD?",
-        description: "Jessica McCabe's brilliant introduction to ADHD — warm, accessible, and a great first watch.",
-        linkText: "Watch on YouTube",
-        linkUrl: "https://www.youtube.com/watch?v=xMWtGozn5jU"
-      },
-      {
         type: "article",
-        icon: "📄",
-        title: "NICE — ADHD Overview",
-        description: "The official UK clinical guidance. Dry but authoritative — useful if you want to understand the medical picture.",
-        linkText: "Read on NICE",
-        linkUrl: "https://www.nice.org.uk/guidance/ng87"
+        icon: "🧠",
+        title: "What is ADHD?",
+        description: "A personal take on what ADHD really means — not the textbook definition, but what it actually feels like to live with it — plus the science that explains why.",
+        linkText: "Read more",
+        linkUrl: "what-is-adhd.html"
       }
     ]
   },
