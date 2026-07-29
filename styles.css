@@ -149,9 +149,8 @@ li { margin-bottom: 0.4rem; }
 
 .site-logo__image {
   display: block;
-  height: 48px;
+  height: 72px;
   width: auto;
-  border-radius: var(--radius-sm);
 }
 
 .site-logo__name {
