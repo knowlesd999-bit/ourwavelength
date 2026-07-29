@@ -143,8 +143,15 @@ li { margin-bottom: 0.4rem; }
 .site-logo {
   text-decoration: none;
   display: flex;
-  flex-direction: column;
+  align-items: center;
   line-height: 1.1;
+}
+
+.site-logo__image {
+  display: block;
+  height: 48px;
+  width: auto;
+  border-radius: var(--radius-sm);
 }
 
 .site-logo__name {
