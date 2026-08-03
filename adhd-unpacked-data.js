@@ -112,9 +112,64 @@ window.adhdUnpackedData = [
         linkUrl: "https://www.additudemag.com"
       }
     ]
-  }
+  },
 
-,
+  {
+    id: "therapy-approaches",
+    heading: "CBT vs Compassion Focused Therapy",
+    intro: "Two very different therapeutic approaches to ADHD — one built around structure and skills, the other around shame and self-compassion. Here's how they compare for adults and children.",
+    links: [
+      {
+        type: "article",
+        icon: "🧩",
+        title: "Cognitive Behavioral Therapy for ADHD",
+        description: "What CBT for ADHD actually involves — task-chunking, time-blocking, and building external systems to work with executive function differences rather than against them. The best-evidenced psychological therapy for adult ADHD.",
+        linkText: "Read on ADDA",
+        linkUrl: "https://add.org/cognitive-behavioral-therapy-for-adhd/"
+      },
+      {
+        type: "article",
+        icon: "🔬",
+        title: "The Efficacy of CBT for Adults With ADHD",
+        description: "A systematic review and meta-analysis of randomised controlled trials — the strongest evidence base of any psychological therapy for adult ADHD.",
+        linkText: "Read the review",
+        linkUrl: "https://pubmed.ncbi.nlm.nih.gov/27554190/"
+      },
+      {
+        type: "website",
+        icon: "📋",
+        title: "NICE Guidelines — ADHD Diagnosis and Management",
+        description: "The UK's official clinical guidance on when CBT is recommended for adults and children with ADHD, and where it sits alongside medication.",
+        linkText: "Read NICE guidance",
+        linkUrl: "https://www.nice.org.uk/guidance/ng87/chapter/recommendations"
+      },
+      {
+        type: "article",
+        icon: "💙",
+        title: "The Role of Self-Compassion in Adult ADHD",
+        description: "Research linking low self-compassion to poorer wellbeing in adults with ADHD — the evidence underpinning why compassion-focused approaches are gaining attention alongside CBT.",
+        linkText: "Read the study",
+        linkUrl: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9790285/"
+      },
+      {
+        type: "website",
+        icon: "🌱",
+        title: "Compassion Focused Therapy for ADHD",
+        description: "An accessible explainer on Paul Gilbert's three-systems model — threat, drive, and soothe — and why it's relevant to the shame and self-criticism many people with ADHD carry.",
+        linkText: "Read more",
+        linkUrl: "https://balancedminds.com/compassion-focused-therapy-for-adhd/"
+      },
+      {
+        type: "article",
+        icon: "🗣️",
+        title: "\"20,000 Negative Comments\" — Fact-Checked",
+        description: "A grounded look at the widely repeated claim that children with ADHD hear 20,000 more corrections by age 10 — where the figure actually comes from, and what's genuinely known about criticism and shame in ADHD childhoods.",
+        linkText: "Read the piece",
+        linkUrl: "https://naomicfisher.substack.com/p/20000-negative-comments"
+      }
+    ]
+  },
+
   {
     id: "public-figures",
     heading: "Public Figures with ADHD",
