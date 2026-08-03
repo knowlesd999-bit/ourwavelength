@@ -73,7 +73,15 @@ window.resourcesData = [
         subtitle: "Thom Hartmann",
         description: "The theory is interesting, but really just a nice way for you to view the world of ADHD superpowers.",
         linkText: "Find on Amazon",
-        linkUrl: "https://amzn.eu/d/00bRmwhz"      
+        linkUrl: "https://amzn.eu/d/00bRmwhz"
+      },
+      {
+        icon: "📗",
+        title: "The PDA Effect: An Autistic Teenager's Guide to Understanding Demand Avoidance",
+        subtitle: "Ethan Knight",
+        description: "Written by an 18-year-old with lived experience of PDA (Pathological/Persistent Demand Avoidance). Technically an autism book rather than an ADHD one, but PDA overlaps enough with ADHD households that it's worth having on the shelf.",
+        linkText: "Find on Amazon",
+        linkUrl: "https://www.amazon.co.uk/dp/1917514174"
       }
     ]
   },
