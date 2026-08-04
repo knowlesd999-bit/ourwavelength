@@ -408,6 +408,36 @@ li { margin-bottom: 0.4rem; }
   margin-bottom: 0.4rem;
 }
 
+/* --- Tips sub-navigation (Practical Tips hub + sub-pages) --- */
+.tips-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.75rem 0 0;
+}
+
+.tips-subnav a {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  background: var(--blue-pale);
+  color: var(--blue-dark);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.tips-subnav a:hover {
+  background: var(--blue-light);
+  color: #fff;
+}
+
+.tips-subnav a.active {
+  background: var(--blue-dark);
+  color: #fff;
+}
+
 /* --- Tips / list sections --- */
 .tip-list {
   list-style: none;

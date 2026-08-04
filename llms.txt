@@ -16,6 +16,14 @@ The tone is warm, honest, and non-clinical. This is not a medical resource. It d
 - [Home](https://www.ourwavelength.co.uk/): Introduction and overview of the site
 - [My Story](https://www.ourwavelength.co.uk/my-story.html): Personal ADHD journey — life before diagnosis, the diagnosis itself, and what changed
 - [ADHD Parenting Files](https://www.ourwavelength.co.uk/raising-adhd-child.html): Experiences and lessons from raising a son with ADHD
-- [Practical Tips](https://www.ourwavelength.co.uk/practical-tips.html): Strategies for adults with ADHD and for parents of ADHD children
+- [Practical Tips](https://www.ourwavelength.co.uk/practical-tips.html): Hub page linking to practical strategies organised by audience
+- [Practical Tips — As an Adult](https://www.ourwavelength.co.uk/practical-tips-adults.html): Day-to-day strategies for managing your own ADHD
+- [Practical Tips — As a Parent](https://www.ourwavelength.co.uk/practical-tips-parents.html): What's helped at home and school raising an ADHD child
+- [Practical Tips — At Work](https://www.ourwavelength.co.uk/practical-tips-work.html): Strategies for the ADHD brain in a workplace setting
+- [Practical Tips — Through a Child's Eyes](https://www.ourwavelength.co.uk/practical-tips-child-perspective.html): A child's-eye perspective on ADHD, written for the adults around them
+- [ADHD Unpacked](https://www.ourwavelength.co.uk/adhd-unpacked.html): Curated collection of articles, videos, and resources to understand ADHD
+- [What is ADHD?](https://www.ourwavelength.co.uk/what-is-adhd.html): A personal take on what ADHD actually feels like, plus the science behind it
+- [Understanding RSD](https://www.ourwavelength.co.uk/rsd.html): Personal experience and clinical explanation of Rejection Sensitive Dysphoria
+- [Public Figures with ADHD](https://www.ourwavelength.co.uk/public-figures.html): Verified list of public figures who have spoken about their ADHD
 - [Resources](https://www.ourwavelength.co.uk/resources.html): Recommended books, websites, podcasts, and tools
 - [Blog](https://www.ourwavelength.co.uk/blog.html): Ongoing personal posts

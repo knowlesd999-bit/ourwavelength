@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Practical ADHD Tips for Adults and Parents — Our Wavelength</title>
-  <meta name="description" content="Practical strategies that have actually worked for managing ADHD at home, at school, and in daily life." />
+  <title>Practical ADHD Tips — For Adults, Parents, Work & Kids — Our Wavelength</title>
+  <meta name="description" content="Practical ADHD strategies, organised by who they're for — adults managing their own ADHD, parents, the workplace, and a child's-eye view for the grown-ups trying to understand." />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="canonical" href="https://www.ourwavelength.co.uk/practical-tips.html" />
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Our Wavelength" />
-  <meta property="og:title" content="Practical ADHD Tips for Adults and Parents — Our Wavelength" />
-  <meta property="og:description" content="Practical strategies that have actually worked for managing ADHD at home, at school, and in daily life." />
+  <meta property="og:title" content="Practical ADHD Tips — For Adults, Parents, Work & Kids — Our Wavelength" />
+  <meta property="og:description" content="Practical ADHD strategies, organised by who they're for — adults, parents, work, and a child's-eye view." />
   <meta property="og:url" content="https://www.ourwavelength.co.uk/practical-tips.html" />
   <!-- Twitter/X Card -->
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Practical ADHD Tips for Adults and Parents — Our Wavelength" />
-  <meta name="twitter:description" content="Practical strategies that have actually worked for managing ADHD at home, at school, and in daily life." />
+  <meta name="twitter:title" content="Practical ADHD Tips — For Adults, Parents, Work & Kids — Our Wavelength" />
+  <meta name="twitter:description" content="Practical ADHD strategies, organised by who they're for — adults, parents, work, and a child's-eye view." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -45,7 +45,7 @@
       <h1>Practical Tips</h1>
       <p class="page-hero__lead">
         No magic, no miracle systems — just things that have genuinely helped in our house,
-        shared in the hope they might help in yours.
+        shared in the hope they might help in yours. Pick the perspective that fits where you are.
       </p>
     </div>
   </section>
@@ -59,16 +59,43 @@
           tried the apps, downloaded the habit trackers, and abandoned most of them
           within a fortnight. What's below isn't a perfect system. It's a collection
           of things that have stuck — or at least stuck long enough to make a real
-          difference.
+          difference — organised by whichever situation you're actually in right now.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- ===== TIPS (rendered from tips-data.js) ===== -->
-  <div id="tips-container">
-    <!-- Injected by script below -->
-  </div>
+  <!-- ===== CATEGORY CARDS ===== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="card-grid">
+        <div class="card">
+          <div class="card__icon">🧠</div>
+          <h3 class="card__title">As an Adult</h3>
+          <p>Day-to-day strategies for managing your own ADHD — organisation, focus, energy, and working with your brain instead of against it.</p>
+          <a href="practical-tips-adults.html" class="card__link">Read the tips</a>
+        </div>
+        <div class="card">
+          <div class="card__icon">👨‍👧</div>
+          <h3 class="card__title">As a Parent</h3>
+          <p>What's actually helped at home and at school, raising a child with ADHD — the tips-based companion to my ADHD Parenting Files.</p>
+          <a href="practical-tips-parents.html" class="card__link">Read the tips</a>
+        </div>
+        <div class="card">
+          <div class="card__icon">💼</div>
+          <h3 class="card__title">At Work</h3>
+          <p>Strategies for surviving — and sometimes thriving — in a workplace that wasn't built with ADHD brains in mind.</p>
+          <a href="practical-tips-work.html" class="card__link">Read the tips</a>
+        </div>
+        <div class="card">
+          <div class="card__icon">🧒</div>
+          <h3 class="card__title">Through a Child's Eyes</h3>
+          <p>What it might look and feel like from the other side — written for the adults trying to understand, not the child themselves.</p>
+          <a href="practical-tips-child-perspective.html" class="card__link">Read the tips</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== CLOSING NOTE ===== -->
   <section class="section">
@@ -122,45 +149,6 @@
       <p>© 2026 Our Wavelength · Made with honesty and a lot of strong tea. · <a href="legal.html" style="color: inherit;">Legal &amp; Privacy</a></p>
     </div>
   </footer>
-
-  <script src="tips-data.js"></script>
-  <script>
-    (function () {
-      var container = document.getElementById('tips-container');
-
-      if (!window.tipsData || window.tipsData.length === 0) {
-        container.innerHTML = '<div class="section"><div class="container"><p>No tips found. Check tips-data.js.</p></div></div>';
-        return;
-      }
-
-      var html = '';
-      var sectionClasses = ['section--alt', 'section--teal'];
-
-      window.tipsData.forEach(function (group, index) {
-        var cls = sectionClasses[index % sectionClasses.length];
-
-        html += '<section class="section ' + cls + '">';
-        html += '  <div class="container">';
-        html += '    <h2>' + group.sectionTitle + '</h2>';
-        if (group.sectionIntro) {
-          html += '    <p style="color: var(--text-mid); margin-bottom: 1.5rem;">' + group.sectionIntro + '</p>';
-        }
-        html += '    <ul class="tip-list">';
-
-        group.tips.forEach(function (tip) {
-          html += '      <li data-icon="' + tip.icon + '">';
-          html += '        <strong>' + tip.heading + '</strong> ' + tip.body;
-          html += '      </li>';
-        });
-
-        html += '    </ul>';
-        html += '  </div>';
-        html += '</section>';
-      });
-
-      container.innerHTML = html;
-    })();
-  </script>
 
 </body>
 </html>
