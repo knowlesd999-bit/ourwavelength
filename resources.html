@@ -109,6 +109,10 @@
             linkHtml = '<a href="' + item.linkUrl + '" target="_blank" rel="noopener">'
                      + item.linkText + ' &rarr;</a>';
           }
+          if (item.reviewUrl) {
+            linkHtml += '<a href="' + item.reviewUrl + '" style="margin-left: 1rem;">'
+                      + (item.reviewText || 'Click here to read my review') + ' &rarr;</a>';
+          }
 
           html += '<div class="resource-item">';
           html += '  <div class="resource-item__icon">' + item.icon + '</div>';

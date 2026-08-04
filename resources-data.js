@@ -33,7 +33,9 @@ window.resourcesData = [
         subtitle: "Edward Hallowell & John Ratey",
         description: "Updated classic from two leading experts (who both have ADHD themselves). Practical, warm, and genuinely helpful. One of the first books I read after my diagnosis.",
         linkText: "Find on Amazon",
-        linkUrl: "https://www.amazon.co.uk/ADHD-2-0-Ground-Breaking-Attention-Engagement/dp/0399178449"
+        linkUrl: "https://www.amazon.co.uk/ADHD-2-0-Ground-Breaking-Attention-Engagement/dp/0399178449",
+        reviewText: "Click here to read my review",
+        reviewUrl: "review-adhd-2-0.html"
       },
       {
         icon: "📗",
