@@ -27,4 +27,5 @@ The tone is warm, honest, and non-clinical. This is not a medical resource. It d
 - [Public Figures with ADHD](https://www.ourwavelength.co.uk/public-figures.html): Verified list of public figures who have spoken about their ADHD
 - [Resources](https://www.ourwavelength.co.uk/resources.html): Recommended books, websites, podcasts, and tools
 - [Book Review: ADHD 2.0](https://www.ourwavelength.co.uk/review-adhd-2-0.html): Personal review of ADHD 2.0 by Edward Hallowell and John Ratey
+- [Workflow](https://www.ourwavelength.co.uk/workflow.html): The tools and systems used to stay productive at work with ADHD
 - [Blog](https://www.ourwavelength.co.uk/blog.html): Ongoing personal posts

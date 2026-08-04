@@ -151,32 +151,16 @@ window.resourcesData = [
   },
 
   {
-    id: "tools",
-    heading: "🛠️ Tools & Apps",
+    id: "workflow",
+    heading: "🔄 Workflow",
     items: [
       {
-        icon: "📝",
-        title: "Notion",
-        subtitle: "Notes, tasks & structure",
-        description: "My current main system for notes, tasks, and structure. Flexible enough to adapt to how my brain actually works, rather than forcing me into someone else's system.",
-        linkText: "Try Notion",
-        linkUrl: "https://www.notion.so"
-      },
-      {
-        icon: "🍅",
-        title: "Pomodoro Timer",
-        subtitle: "Any variant works",
-        description: "Working in short focused bursts with built-in breaks suits ADHD brains well. I use a simple web-based timer — no fancy app needed.",
-        linkText: "Try Pomofocus",
-        linkUrl: "https://pomofocus.io"
-      },
-      {
-        icon: "🔕",
-        title: "Focus@Will",
-        subtitle: "Background music for focus",
-        description: "Background music designed to support focus. The science is debated but anecdotally it works for me when I need to get into a flow state.",
-        linkText: "Try Focus@Will",
-        linkUrl: "https://www.focusatwill.com"
+        icon: "🔄",
+        title: "My Workflow Toolkit",
+        subtitle: "Notion, timers, and focus tools",
+        description: "The systems and apps I actually use to stay productive at work without spiralling — built up over years, and still not finished.",
+        linkText: "See my full workflow",
+        linkUrl: "workflow.html"
       }
     ]
   }

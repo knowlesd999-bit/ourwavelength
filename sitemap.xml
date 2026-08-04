@@ -57,6 +57,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.ourwavelength.co.uk/workflow.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ourwavelength.co.uk/blog.html</loc>
     <priority>0.7</priority>
   </url>
